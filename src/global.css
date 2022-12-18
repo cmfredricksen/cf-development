@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Martian+Mono&family=Montserrat&family=Satisfy&display=swap');
+
+:root {
+	--clr-white: #e1ecf9;
+	--clr-light: #609ce1;
+	--clr-medium: #236ab9;
+	--clr-dark: #133863;
+	--clr-black: #091d34;
+	--clr-accent: #fc7307;
+
+	--font-heading: 'Satisfy', sans-serif;
+	--font-text: 'Montserrat', sans-serif;
+	--font-accent: 'Martian Mono', monospace;
+}
+
+body {
+	background-color: var(--clr-white);
+}
+
+h1,
+h2,
+h3 {
+	color: var(--clr-medium);
+	font-family: var(--font-heading);
+}
+
+p {
+	color: var(--clr-dark);
+	font-family: var(--font-text);
+}
+
+a,
+li {
+	font-family: var(--font-accent);
+}
