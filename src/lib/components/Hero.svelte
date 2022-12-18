@@ -36,7 +36,8 @@
 		border-radius: 15px;
 		border-bottom-right-radius: 100px;
 		padding: 1rem 1rem 2rem;
-		margin: 1rem 0 3rem;
+		margin: 1rem auto 3rem;
+		width: 70%;
 	}
 
 	.hero .left h1 {

@@ -2,6 +2,10 @@
 	import '../global.css';
 	import Header from '$lib/Header.svelte';
 	import Hero from '$lib/components/Hero.svelte';
+	import PlanDesign from '$lib/components/PlanDesign.svelte';
+	import BuildDeploy from '$lib/components/BuildDeploy.svelte';
+	import MaintainMore from '$lib/components/MaintainMore.svelte';
+	import Footer from '$lib/Footer.svelte';
 </script>
 
 <svelte:head>
@@ -16,12 +20,16 @@
 <Header />
 <div class="wrapper">
 	<Hero />
+	<PlanDesign />
+	<BuildDeploy />
+	<MaintainMore />
 	<slot />
+	<Footer />
 </div>
 
 <style>
 	.wrapper {
-		width: 70%;
+		/* width: 70%; */
 		margin: 0 auto;
 		padding: 1rem;
 	}

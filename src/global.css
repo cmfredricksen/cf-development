@@ -43,6 +43,8 @@ li {
 
 li {
 	list-style-position: inside;
+	list-style-type: '\1f538';
+	font-family: var(--font-heading);
 }
 
 .material-symbols-outlined {
