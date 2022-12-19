@@ -51,11 +51,11 @@
 	}
 
 	.right {
-		margin: 1rem;
+		/* margin: 1rem; */
 		padding: 0.5rem;
 		width: 100%;
 		display: grid;
-		gap: 1.5rem;
+		gap: 1rem;
 		grid-template-rows: 1fr 2fr;
 		border-left: 2px solid var(--clr-light);
 	}
@@ -83,13 +83,12 @@
 	}
 
 	.right .text-box li {
-		margin: 0.5rem 1.5rem;
+		margin: 0.5rem 1rem;
 		text-align: center;
-		padding: 0 0.5rem;
 	}
 
 	.material-symbols-outlined {
-		font-size: 8rem;
+		font-size: 6rem;
 		justify-self: center;
 	}
 </style>

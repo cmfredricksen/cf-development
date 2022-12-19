@@ -9,7 +9,7 @@
 </script>
 
 <svelte:head>
-	<title>CF DEV</title>
+	<title>CF Development</title>
 </svelte:head>
 
 <link
@@ -29,7 +29,6 @@
 
 <style>
 	.wrapper {
-		/* width: 70%; */
 		margin: 0 auto;
 		padding: 1rem;
 	}
