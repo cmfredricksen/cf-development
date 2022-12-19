@@ -23,8 +23,6 @@
 <style>
 	.container {
 		background-color: var(--clr-black);
-		height: 75vh;
-		/* width: 70%; */
 		margin: 2rem auto;
 		padding: 2rem;
 		border-bottom: 30px solid var(--clr-accent);
@@ -36,12 +34,8 @@
 		display: flex;
 		align-items: center;
 	}
-	h1 {
-		color: var(--clr-light);
-	}
 
 	p {
-		color: var(--clr-white);
 		padding: 1rem 0;
 		line-height: 1.5;
 	}
@@ -54,14 +48,12 @@
 	}
 
 	li {
-		list-style-type: '\1f538';
 		margin: 0 1rem;
 		padding: 1rem;
 	}
 
 	.material-symbols-outlined {
-		color: var(--clr-accent);
-		font-size: 2rem;
+		font-size: 4rem;
 		margin: 0 2rem;
 	}
 </style>

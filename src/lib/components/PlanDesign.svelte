@@ -35,7 +35,7 @@
 	.container {
 		display: flex;
 		flex-direction: column;
-		padding: 2rem 1rem;
+		padding: 2rem;
 		margin: 2rem 0;
 		background-color: var(--clr-dark);
 		gap: 2rem;
@@ -43,24 +43,16 @@
 		border-radius: 2rem;
 	}
 	h1 {
-		color: var(--clr-light);
 		text-shadow: 1px 1px 1px var(--clr-black);
-	}
-
-	p {
-		color: var(--clr-white);
 	}
 
 	.left {
 		display: flex;
-		/* justify-content: space-between; */
 		align-items: baseline;
 	}
 
 	.material-symbols-outlined {
 		margin: 0 2rem;
-		color: var(--clr-accent);
-		font-size: 2rem;
-		text-shadow: 1px 1px 1px var(--clr-black);
+		font-size: 3rem;
 	}
 </style>

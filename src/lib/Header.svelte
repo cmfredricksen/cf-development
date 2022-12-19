@@ -24,7 +24,6 @@
 	}
 	h1 {
 		font-family: var(--font-accent);
-		color: var(--clr-light);
 	}
 	p {
 		font-family: var(--font-heading);

@@ -37,17 +37,31 @@
 
 	label {
 		color: var(--clr-white);
-		margin: 0;
 		margin: 0.5rem 0;
 		font-family: var(--font-text);
 	}
 	input {
-		padding: 0;
+		padding: 0.5rem;
+		border-radius: 0.25rem;
+	}
+
+	textarea {
+		border-radius: 0.25rem;
 	}
 
 	button {
 		width: 25%;
 		margin: 1rem 0;
+		padding: 0.25rem;
 		font-family: var(--font-accent);
+		font-size: 1.25rem;
+		background-color: var(--clr-accent);
+		border: 1px solid var(--clr-light);
+		border-radius: 0.4rem;
+		color: var(--clr-dark);
+	}
+
+	button:hover {
+		color: var(--clr-white);
 	}
 </style>

@@ -28,32 +28,36 @@
 <style>
 	.hero {
 		display: grid;
-		grid-template-columns: 1fr 1.5fr;
+		grid-template-columns: 1fr 1fr;
 		gap: 2rem;
 		background-color: var(--clr-black);
-		height: 75vh;
 		border-bottom: 30px solid var(--clr-accent);
 		border-radius: 15px;
 		border-bottom-right-radius: 100px;
-		padding: 1rem 1rem 2rem;
-		margin: 1rem auto 3rem;
+		padding: 1rem;
+		margin: 1rem auto;
 		width: 70%;
 	}
 
-	.hero .left h1 {
-		color: var(--clr-light);
-		width: 100%;
+	.left {
 		margin: 1rem;
-		padding: 0.5rem;
-		padding-right: 2rem;
+		padding: 0.5rem 2rem;
+		width: 100%;
+		border-right: 2px solid var(--clr-light);
+	}
+
+	.left h1 {
+		color: var(--clr-light);
 	}
 
 	.right {
+		margin: 1rem;
+		padding: 0.5rem;
 		width: 100%;
 		display: grid;
-		gap: 1rem;
+		gap: 1.5rem;
 		grid-template-rows: 1fr 2fr;
-		padding: 1rem 0;
+		border-left: 2px solid var(--clr-light);
 	}
 
 	.right .icon-box {
@@ -66,6 +70,7 @@
 		line-height: 1.5;
 		width: 70%;
 		margin: 0 auto;
+		text-align: center;
 	}
 
 	.right .text-box ul {
@@ -74,20 +79,17 @@
 		width: 70%;
 		display: flex;
 		flex-wrap: wrap;
+		justify-content: center;
 	}
 
 	.right .text-box li {
-		margin: 0.5rem 1rem;
-		list-style: none;
-		font-family: var(--font-heading);
+		margin: 0.5rem 1.5rem;
 		text-align: center;
-		list-style-type: '\1f538';
+		padding: 0 0.5rem;
 	}
 
 	.material-symbols-outlined {
-		font-size: 4rem;
-		color: var(--clr-accent);
-		padding: 1rem;
+		font-size: 8rem;
 		justify-self: center;
 	}
 </style>

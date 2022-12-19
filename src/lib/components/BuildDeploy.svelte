@@ -1,7 +1,3 @@
-<script>
-	import Contact from './Contact.svelte';
-</script>
-
 <div class="container">
 	<div class="card">
 		<div class="card-title">
@@ -36,42 +32,33 @@
 		gap: 2rem;
 		justify-content: space-around;
 		margin: 0 auto;
-		/* background-color: var(--clr-medium); */
 		border-radius: 2rem;
-		/* border: 5px solid var(--clr-dark); */
 	}
 
 	.card {
-		background-color: var(--clr-light);
-		/* background: linear-gradient(var(--clr-white), var(--clr-light)); */
+		background-color: var(--clr-dark);
 		width: 50%;
-		height: 75vh;
 		padding: 2rem;
 		border-radius: 2rem;
 		border: 2px solid var(--clr-medium);
-		border-bottom: 15px solid var(--clr-dark);
+		border-bottom: 15px solid var(--clr-accent);
 	}
 
 	.card-title {
 		display: flex;
 		align-items: center;
 		justify-content: space-between;
-		margin-bottom: 2rem;
-	}
-
-	h1 {
-		color: var(--clr-dark);
-		text-shadow: 1px 1px 1px var(--clr-black);
+		margin-bottom: 1rem;
+		background-color: var(--clr-black);
+		padding: 1rem;
+		border-radius: 0.5rem;
 	}
 
 	p {
-		font-weight: 700;
 		line-height: 1.5;
 	}
 
 	.material-symbols-outlined {
-		color: var(--clr-accent);
-		text-shadow: 1px 1px 3px var(--clr-black);
-		font-size: 2rem;
+		font-size: 4rem;
 	}
 </style>
