@@ -1,11 +1,13 @@
 <div class="container">
-	<h2>Contact Me</h2>
+	<h2 id="contact">Contact Me</h2>
 	<form action="https://formsubmit.co/cmfredricksen@gmail.com" method="POST">
 		<label for="name">Name:</label>
 		<input type="text" name="name" required />
 		<label for="email">Email:</label>
 		<input type="email" name="email" required />
-		<!-- <input type="hidden" name="_next" value="https://gaylord-computing.netlify.app/thanks" /> -->
+		<label for="phone">Phone:</label>
+		<input type="text" name="phone" />
+		<!-- <input type="hidden" name="_next" value="/thanks" /> -->
 		<label for="message">Message:</label>
 		<textarea name="message" id="message" cols="30" rows="10" />
 		<input type="hidden" name="_subject" value="development" />
@@ -28,7 +30,6 @@
 		display: flex;
 		flex-direction: column;
 		border-radius: 2rem;
-		/* gap: 1rem; */
 		margin: 1rem 0;
 		background-color: var(--clr-dark);
 		padding: 1rem;
@@ -38,6 +39,7 @@
 		color: var(--clr-white);
 		margin: 0;
 		margin: 0.5rem 0;
+		font-family: var(--font-text);
 	}
 	input {
 		padding: 0;
@@ -46,5 +48,6 @@
 	button {
 		width: 25%;
 		margin: 1rem 0;
+		font-family: var(--font-accent);
 	}
 </style>

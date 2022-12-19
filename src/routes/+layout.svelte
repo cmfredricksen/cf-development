@@ -18,12 +18,12 @@
 />
 
 <Header />
+<slot />
 <div class="wrapper">
 	<Hero />
 	<PlanDesign />
 	<BuildDeploy />
 	<MaintainMore />
-	<slot />
 	<Footer />
 </div>
 
