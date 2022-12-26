@@ -5,13 +5,11 @@
 			<span class="material-symbols-outlined">view_quilt</span>
 		</div>
 		<p>
-			Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga quod rem ullam natus ratione
-			enim maiores modi reiciendis. Voluptate neque, repellendus ipsum illum nulla veniam provident,
-			accusamus nihil unde molestias dolorem magni atque. Neque quasi quibusdam fugiat eum laborum
-			itaque aspernatur sunt culpa assumenda! Incidunt sapiente voluptatem animi consequatur ex
-			cupiditate tempora eos dolorem, praesentium ducimus, sunt fugit. Modi asperiores, eveniet
-			sunt, corrupti ipsa autem porro soluta iusto mollitia blanditiis sed dignissimos
-			exercitationem temporibus ullam?
+			I specialize in small businesses and solo entrepeneurs who are looking for a unique, custom
+			built website that reflects their core message and values. I use the best techniques to ensure
+			your website will load quickly and work smoothly for your visitors, whether they are using a
+			computer, a tablet or a smart phone. I will start by planning your website based on your
+			business needs and your preferences.
 		</p>
 	</div>
 	<div class="design">
@@ -20,13 +18,9 @@
 			<span class="material-symbols-outlined">brush</span>
 		</div>
 		<p>
-			Lorem ipsum dolor sit amet consectetur adipisicing elit. Id molestias vitae eveniet quas. Ut,
-			molestiae in voluptate error beatae a esse vitae. Omnis, eum corrupti repellendus aliquid
-			excepturi nam quos quibusdam velit quae vitae dolorem beatae delectus inventore doloribus.
-			Voluptatum tenetur praesentium inventore dolor? Maxime est beatae aliquam fugiat animi culpa,
-			similique reprehenderit nulla numquam dolorum quidem explicabo, aut voluptates cupiditate
-			dolore quisquam ratione? Officia laboriosam reprehenderit ipsum officiis nostrum obcaecati non
-			saepe earum adipisci?
+			With a background in graphic design, web development and fine art I have an eye for colors,
+			fonts, layouts and the use of graphics to make beautiful web pages. I specialize in clean
+			designs that are easy to read and navigate for users.
 		</p>
 	</div>
 </div>

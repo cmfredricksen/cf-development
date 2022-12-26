@@ -4,6 +4,12 @@
 			Hello, my name is Christine and I have over 15 years of graphic design and web development
 			experience...
 		</h1>
+		<p>
+			You have plenty to do, let me take care of your website. I will plan, design, build, deploy
+			and maintain your website so you can focus on running your primary business. Each website is
+			custom built with attention to detail and an eye on quality. I will handle the details so you
+			don't have to.
+		</p>
 	</div>
 	<div class="right">
 		<div class="icon-box">

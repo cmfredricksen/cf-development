@@ -5,10 +5,9 @@
 			<div class="material-symbols-outlined">build</div>
 		</div>
 		<p>
-			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis id similique incidunt ex
-			aperiam eligendi ab eum nostrum magnam maiores possimus esse corporis accusantium non tempore
-			cupiditate odio temporibus culpa deleniti, error sunt dolor modi veniam? Molestiae laboriosam
-			in odit temporibus velit cumque alias eaque nesciunt fugiat, illo molestias officiis.
+			I have the know how to build your website using everything from platforms like WordPress to
+			starting from scratch. Speedy, stable peformance is high priority as I plan and develop your
+			site's infrastructure.
 		</p>
 	</div>
 	<div class="card">
@@ -17,10 +16,9 @@
 			<div class="material-symbols-outlined">cloud</div>
 		</div>
 		<p>
-			Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt at officiis vitae soluta
-			facilis deserunt magnam fugiat itaque! Natus delectus fuga, soluta nobis eaque ipsum porro,
-			labore in, quo animi libero adipisci reiciendis provident aliquam. Sint soluta harum ab
-			adipisci explicabo necessitatibus error voluptatibus hic, magni qui! Doloribus, possimus iste.
+			In order to go live on the web you will need a domain name, hosting and SSL(Https). You may
+			also need access in order to update data. I will set these up for you based on the
+			requirements of your business.
 		</p>
 	</div>
 </div>
