@@ -7,11 +7,10 @@
 		<input type="email" name="email" required />
 		<label for="phone">Phone:</label>
 		<input type="text" name="phone" />
-		<!-- <input type="hidden" name="_next" value="/thanks" /> -->
+		<input type="hidden" name="_next" value="https://cfdevelopment.netlify.app/thanks" />
 		<label for="message">Message:</label>
 		<textarea name="message" id="message" cols="30" rows="10" />
 		<input type="hidden" name="_subject" value="development" />
-		<!-- <input type="hidden" name="_captcha" value="false" /> -->
 		<button type="submit">Send</button>
 	</form>
 </div>
