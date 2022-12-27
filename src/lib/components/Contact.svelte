@@ -64,4 +64,26 @@
 	button:hover {
 		color: var(--clr-white);
 	}
+
+	@media screen and (max-width: 1000px) {
+		.container {
+			margin: 0 auto;
+		}
+		h2 {
+			text-align: center;
+		}
+		button {
+			margin: 2rem auto;
+		}
+	}
+
+	@media screen and (max-width: 700px) {
+		.container {
+			width: 100%;
+		}
+
+		h2 {
+			text-align: center;
+		}
+	}
 </style>

@@ -38,6 +38,7 @@
 	}
 	h1 {
 		text-shadow: 1px 1px 1px var(--clr-black);
+		color: var(--clr-light);
 	}
 
 	.left {
@@ -48,5 +49,21 @@
 	.material-symbols-outlined {
 		margin: 0 2rem;
 		font-size: 3rem;
+	}
+
+	@media screen and (max-width: 1000px) {
+		.container {
+			border-radius: 0;
+			margin: 0;
+			border: none;
+			border-bottom: 3px solid var(--clr-accent);
+		}
+	}
+
+	@media screen and (max-width: 700px) {
+		.container {
+			border-radius: 0;
+			margin: 0;
+		}
 	}
 </style>

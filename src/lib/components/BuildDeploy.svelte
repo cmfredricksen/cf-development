@@ -52,11 +52,44 @@
 		border-radius: 0.5rem;
 	}
 
+	h1 {
+		color: var(--clr-light);
+	}
+
 	p {
 		line-height: 1.5;
 	}
 
 	.material-symbols-outlined {
 		font-size: 4rem;
+	}
+
+	@media screen and (max-width: 1000px) {
+		.container {
+			width: 100%;
+			gap: 3px solid var(--clr-light);
+			border-bottom: 3px solid var(--clr-accent);
+			border-radius: 0;
+			margin: 0;
+		}
+		.card {
+			width: 100%;
+			border-radius: 0;
+			border: none;
+		}
+	}
+
+	@media screen and (max-width: 700px) {
+		.container {
+			flex-direction: column;
+			width: 100%;
+			gap: 0;
+		}
+
+		.card {
+			border-radius: 0;
+			width: 100%;
+			/* border-bottom: 1px solid var(--clr-accent); */
+		}
 	}
 </style>

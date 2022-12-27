@@ -33,16 +33,13 @@
 
 <style>
 	.hero {
-		display: grid;
-		grid-template-columns: 1fr 1fr;
-		gap: 2rem;
+		display: flex;
 		background-color: var(--clr-black);
 		border-bottom: 30px solid var(--clr-accent);
 		border-radius: 15px;
 		border-bottom-right-radius: 100px;
 		padding: 1rem;
 		margin: 1rem auto;
-		width: 70%;
 	}
 
 	.left {
@@ -57,7 +54,7 @@
 	}
 
 	.right {
-		/* margin: 1rem; */
+		margin: 1rem;
 		padding: 0.5rem;
 		width: 100%;
 		display: grid;
@@ -96,5 +93,98 @@
 	.material-symbols-outlined {
 		font-size: 6rem;
 		justify-self: center;
+	}
+	@media screen and (max-width: 1000px) {
+		.hero {
+			margin: 0;
+			padding: 1rem 0;
+			flex-direction: column;
+			border-radius: 0%;
+			border-bottom: 3px solid var(--clr-accent);
+		}
+
+		.hero .left h1 {
+			padding: 1rem auto;
+		}
+
+		.hero .left p {
+			padding: 2rem 0 1rem;
+		}
+
+		.right,
+		.left {
+			border: 0;
+		}
+
+		.right .text-box p {
+			margin: -2rem auto 0;
+			font-size: 2rem;
+		}
+
+		.material-symbols-outlined {
+			font-size: 3rem;
+			justify-content: space-around;
+			margin: 0 2rem;
+		}
+	}
+
+	@media screen and (max-width: 700px) {
+		.hero {
+			flex-direction: column;
+			padding: 1.5rem 1rem;
+			border-radius: 0;
+			margin: 0;
+		}
+
+		.hero p {
+			margin: 1.5rem 0;
+		}
+
+		.left {
+			border-right: 0;
+			padding: 1.5rem 0.5rem;
+			margin: 0 0 2.5rem;
+		}
+		.right {
+			padding: 0;
+			margin: 0;
+			border-left: 0;
+		}
+		span {
+			padding: 0;
+			margin: 0;
+		}
+		.right .icon-box {
+			display: grid;
+			grid-template-columns: 1fr 1fr 1fr;
+			padding: 0;
+			margin: -2rem 0;
+		}
+		.material-symbols-outlined {
+			margin: 0;
+			font-size: 2rem;
+			justify-content: space-around;
+		}
+
+		.right .text-box {
+			text-align: center;
+		}
+
+		.right .text-box p {
+			margin: -6rem auto 1.5rem;
+			font-size: 1.5rem;
+			font-family: var(--font-accent);
+		}
+
+		.right .text-box ul {
+			margin: 0 0;
+			align-items: left;
+			width: 100%;
+			justify-content: space-evenly;
+		}
+
+		.right .text-box ul li {
+			list-style-position: inside;
+		}
 	}
 </style>
